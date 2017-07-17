@@ -67,4 +67,4 @@ def return_state_inputs():
    return json.dumps(json_sensor_dic, indent=4)
 
 
-run(host='0.0.0.0', port=9001)
+run(host='192.168.0.102', port=9001)
